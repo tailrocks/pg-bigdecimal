@@ -1,0 +1,2 @@
+repository = "tailrocks/pg-bigdecimal"
+visibility = "public"
