@@ -1,0 +1,37 @@
+tree f3cb38d9a4cac595c88cbc9301d380d2d1ae0484
+parent 699139816c0e83f0cc42ac4ebe4263aaca87450f
+author Alexey Zhokhov <alexey@zhokhov.com> 1786614867 +0700
+committer GitHub <noreply@github.com> 1786614867 +0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJqfZRTCRC1aQ7uu5UhlAAAZjAQAEWuTm6i5F+L9eRyMLTRgAZA
+ spKLW2UVSHAvj5ZAF14yhVIR2lrkkWW4Bd6Jd4qyAMKTYJKBM5YbvQHjlkUXih7Y
+ ulakjgHctK1PT2roF/5s2FANFl909/hvmhWZ91rQDuweVSenZYP3DDWc3e2SRzI2
+ 1lmPtxcpt9mZf991O2k6+yS893/GpZ4p4fSrM2tU/woUJJfOApH8CRf4oC1S7gtg
+ QqKD9UCPCThKahcaJeoyMBLV9thGKnnwRBE8a/sCw69I9JqynQy3UJ4jB1vkyEoW
+ Bkee6EovYZvUy76qD4aEJwYoJlQoZDZP2h97AAxW/xGQxL8XW1FG3mVgHS1qmbkO
+ Q4fhddQj8qowiKJyG7UnlHexFxpCO60irZD7wDwf6Ty/afN4/6OJXBFsW0QKwTdA
+ 0NXn4Kl5qXeWIcsOhOxwgh+BATB4KXoGRALxoRulXZm1MtEu9JWX5zhGd5THl9jx
+ YJeOaJogEEnYiSMuvPeqR9GHoYgRLYYizFf5klasMiVrcGo4MnHO8VgtEg7ODzfg
+ FyH9PrBYgnfWGmh2NCbsbb2hg2AgnxNY50pbLth/bnABsZp9nRAOSFxdyeARLnTH
+ CilwgOHLCwoHbht7dkMF+iwKtaju68j/LM3hgwPMskSfuwXY4w8pkp+UwuLKHZpo
+ sVxQjStgLtklz4nSzp6A
+ =yDCS
+ -----END PGP SIGNATURE-----
+ 
+
+chore(ci): adopt unified Velnor workflow (#5)
+
+## Summary
+- bind the consumer to verified owner-local release `2026.8.18`
+- restrict push CI to `main` and release tags
+- preserve hosted pull-request and merge-group checks
+
+## Verification
+The canonical generator passed 91 tests, actionlint, fmt, and the exact
+28/4/4 fleet audit.
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>
+Co-authored-by: Codex <codex@openai.com>

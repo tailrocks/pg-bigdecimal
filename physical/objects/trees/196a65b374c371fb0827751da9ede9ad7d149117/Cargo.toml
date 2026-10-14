@@ -1,0 +1,46 @@
+[package]
+name = "pg-bigdecimal"
+version = "0.1.0"
+edition = "2024"
+description = "ToSql/FromSql bridge between bigdecimal::BigDecimal and PostgreSQL NUMERIC for tokio-postgres"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/donbeave/pg-bigdecimal"
+homepage = "https://github.com/donbeave/pg-bigdecimal"
+documentation = "https://docs.rs/pg-bigdecimal"
+keywords = ["postgres", "numeric", "bigdecimal", "tokio-postgres"]
+
+[dependencies]
+bigdecimal = "0.4"
+byteorder = "1"
+bytes = "1"
+num-bigint = "0.4"
+num-integer = "0.1"
+num-traits = "0.2"
+postgres-types = "0.2"
+
+[lints]
+workspace = true
+
+[workspace]
+resolver = "3"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+correctness = { level = "deny", priority = -1 }
+suspicious = { level = "deny", priority = -1 }
+complexity = { level = "warn", priority = -1 }
+style = { level = "warn", priority = -1 }
+perf = { level = "warn", priority = -1 }
+pedantic = { level = "warn", priority = -1 }
+
+module_name_repetitions = "allow"
+must_use_candidate = "allow"
+missing_errors_doc = "allow"
+missing_panics_doc = "allow"
+dbg_macro = "deny"
+print_stdout = "warn"
+print_stderr = "warn"
+todo = "warn"
+unimplemented = "deny"

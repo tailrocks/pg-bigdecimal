@@ -1,0 +1,8 @@
+tree d60c569244dd42fcd2d153e1df48ab12d333cb35
+author Alexey Zhokhov <alexey@zhokhov.com> 1779481834 +0000
+committer Alexey Zhokhov <alexey@zhokhov.com> 1779481834 +0000
+
+chore: initialize pg-bigdecimal
+
+Co-authored-by: Codex <codex@openai.com>
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>

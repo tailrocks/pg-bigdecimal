@@ -1,0 +1,41 @@
+tree 10a68fe590a6713476284241e3dbcb533df677d1
+parent f029068fb112f7dd54023fc09fdfa58d37135e5f
+author Alexey Zhokhov <alexey@zhokhov.com> 1786608265 +0700
+committer GitHub <noreply@github.com> 1786608265 +0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJqfXqJCRC1aQ7uu5UhlAAANy4QABVhEwCuIVt63ihVx8xtoZGq
+ uRtwFokvWKwdlPwfuDZbJucKGZc4lT7zDEx+5t46CzRIJ7anONRbx+Ql4ZvM/8M9
+ upPnnibL+OigGqtTYav4kZL1JbQazEPwPlMsCK3OGn1DzF3VjNcFF5oZvvnJeH6+
+ tb82agYMZ8+IxfmE7fXg/2vHtPs4ScqW0iZ2V1sqzwT6QbBof+4BEKX7qthCvQP+
+ OSqL00L6qGCvt709Xyu+DlCE05F4khcJKce4dACyjD3Y+YflkOQeSOwHZeuhjlK2
+ xX5SDgxGzirvQ8GBvRWgXFEZIZvQFvYBUl/4wZdo81+QWuhFDjQoNOP76JgZbz+p
+ fFyQ6hdQ+FCJWUdjCm/fqUge+50tErv2rIVpTf0XSgHXd5/E0UfY78K5FlVrZmb4
+ NpUOOTEnqbV2LXtKMLR7vFS9GyN20x6YWziPpct/vu04XqmZ9BHYdIMpYMIAPHpM
+ Nn/nVCFSitosHnSdqQ4/IPFPPh1UH+88bMKRahkHJqcWKwsHUDzRtxlDxFbuZ3er
+ ayATukd+QZQvHpjzvKNsbl5HWIZpV4Waa7AChbu857/bXS5jOwFKxP3dtABvX4/D
+ dhREjlZL2Qws0lKvZvASbMAnI4ANuDZJrlWo8t5k6v1M9HLkN14bg9n2fSQXvKGX
+ dWM+HUOGJtXrFJXoa8vM
+ =wRCC
+ -----END PGP SIGNATURE-----
+ 
+
+chore(ci): adopt unified Velnor workflow (#4)
+
+## Summary
+- replace the fleet consumer with the exact generated class workflow
+- bind each owner mirror to its verified 2026.8.17 immutable target
+- preserve the sole `lane` selector and fail-closed `ci-required`
+aggregator
+
+## Verification
+The canonical generator passed 90 tests, clippy, fmt, and the exact
+28/4/4 fleet audit. The fixture rollout passed the Velnor contract at
+the same release.
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>
+
+---------
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>
+Co-authored-by: Codex <codex@openai.com>

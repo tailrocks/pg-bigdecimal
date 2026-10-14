@@ -1,0 +1,32 @@
+tree 649bed5c7ee467dbd54765553666dc40232d5d7f
+parent 32583169cce3807e0af187b48bc91f05f8301579
+author Alexey Zhokhov <alexey@zhokhov.com> 1786849471 +0700
+committer GitHub <noreply@github.com> 1786849471 +0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJqgSi/CRC1aQ7uu5UhlAAAUecQAHSduEidSNcF1z53iLO1OgU+
+ L7xe7aprKZ2A/HH0OOJz7ZJRFLGw5isosJRzyRna7vbdrZUmOtopp1SYMP+oj7Lu
+ 9ogk8ofJNA96sc0SnwvP52zIl5oZpAQRNKzR4gdSithgFSeGx2y+RQsz7155J7QE
+ oBe4Z/5jNthL8wmsIWIQAxCU7moe8o52xTQBbUJcxqtEbJE/eNyV+rwIaQAVaolf
+ jissx1SFho8UCBtaoSQCgKt0Nt2W7aYJDpE0FOvpydaE5MDjyPzShFazThzIq1+X
+ OE5ZjMWijiy20pQISxEFi99MzlX0YUuke+yT9FbL8H9tkxpOxpdw/IET1Gejr2jU
+ 6H1jRwXp6I2hwri70ylsoStqj6ABDvAM8m6xtPKPsQvSRDkvVs2Hz8BpWTs8PF8C
+ b2nTK4Djyqp6/lFghUoa+Xdna0nb4XUsrzXI1sFlus5WsnO8xwLQzHsQXYLTVgWT
+ O0HQ4XNj+baAhM3HxvQ1CRXvDejn7jCE37gwkYXd0YrKHrbTfcIp6h1hXwyvMEOo
+ I51HJa9TypFugjjG2vyCc/QjHKtXVBhLT+HSkx03d5jivuWssb5u1hwfqLweVmAf
+ kutrRZEygpkNtMrQbVcShSK2FekCTarUAKDh5mwTgZyH3fp/MOc0mjHYPNnde/Ul
+ SmophzBXugtOhDkyyx63
+ =WoUz
+ -----END PGP SIGNATURE-----
+ 
+
+ci: remove obsolete public CI bridge (#7)
+
+The generated canonical `ci.yml` now handles untrusted pull requests
+through the trust-aware lane contract. This removes the obsolete
+duplicate CI graph. In Jackin, it also removes the read-only
+cache-cleanup workflow that never deleted caches; the privileged manual
+cleanup remains.
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>
+Co-authored-by: Codex <codex@openai.com>

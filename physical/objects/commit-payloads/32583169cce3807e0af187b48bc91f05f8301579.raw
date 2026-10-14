@@ -1,0 +1,34 @@
+tree 13fd619ff3ffdc1ff814ccd316959b842e54eb1d
+parent f5eb12f91a9137c1e254c684246059e2b935a996
+author Alexey Zhokhov <alexey@zhokhov.com> 1786739333 +0700
+committer GitHub <noreply@github.com> 1786739333 +0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJqf3qFCRC1aQ7uu5UhlAAAL4oQAGOLzsHbqnyrc51wMVqmTKL7
+ P0ng/rU51/s8utzIiZddaqdfcVL+Q4VILdQgIsi4VpJMGHKwLm1th5LKIOQcWFFd
+ hkbN/HKDmP1rJFOo6KCrabKOFxAHRTGPPk3vROFE5JCCwSQVDm9X2nJ5oEaEJ8uT
+ dTbs2bDZldPgfPVYABuqalOTB9kX03Ng8HwCvsOyDXogi1qNzHWjMLWak++vN5V5
+ naSmmhKIlgTwUkaPrhGoU7j03HNKA249M3PWPvSX2AZtbDtM6XF/wpFIDUESyqC8
+ qp2cpffGLSG/W5UrL+9IT0Aq53ti2bz1/BUlA53LQf5eQgXKyIWyGcXeAkd4kHwV
+ +ZmeyAS9UiAl9Nsqid8xC3plOfnPMZ1HwLowJglm+agzP0pIF2S3PvSmBNcWVdvy
+ vrjteDvYVZo7y0g9vJ6+880oemGTbvxi2TEtsHKFi1Ku+KbBv01lILlb39HkGwZs
+ IIKYREWApFe0PpiX2hL2hJ+nAfoQh/UsYd2qmCbo2o7SJQOiqvGsMgNlNBXd8gfZ
+ gqNf7UoV5PmGJ496aXW0xls0nJAuT9cDIOTdLlxQ+R9lQSvSB2eL3tzC43wWZR0O
+ 1zJKapMk4foABhZvWDY65vbddEWSWnaEVsJF4YOZsj3heoobQnSNyuUPT22YAK0S
+ G3/fnwc7OE6jQ/Y/S2MN
+ =L4To
+ -----END PGP SIGNATURE-----
+ 
+
+chore(ci): update Velnor actions to 2026.8.19 (#6)
+
+Update the generated unified CI consumer to the three signed 2026.8.19
+Velnor Actions mirror commits.
+
+Generated workflow only; no repository-local CI divergence.
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>
+Co-authored-by: Codex <codex@openai.com>
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>
+Co-authored-by: Codex <codex@openai.com>

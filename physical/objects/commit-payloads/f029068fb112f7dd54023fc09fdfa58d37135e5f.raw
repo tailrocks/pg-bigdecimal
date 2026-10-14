@@ -1,0 +1,28 @@
+tree 37073e3c94da465a9de63af419a2d99945f66a63
+parent 3767514e7208f106944d17db296da457b19b1598
+author Alexey Zhokhov <alexey@zhokhov.com> 1786403638 +0700
+committer GitHub <noreply@github.com> 1786403638 +0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJqels2CRC1aQ7uu5UhlAAAGXsQAFDfXy7L3ilpU49Kt+ix9niz
+ fMwHvetE5EbnVMgiLIDiwIL3pi+KGWR7M5ujBdI6tMSQUJBLmYuYvMPV2n24CtH/
+ g6KnmuoDdG8teb+dowfYCOU/GsJkiO8ThX0rGk4lmJkt7dqaXnjWy0HANx9ptQuk
+ 6BqijI2Jp842i2Ag3BB4NaIn+ab6qizylzVgtltJK0cI8Uc+D/I+0VVulbtkxioZ
+ Jd9v28idKT7B1/uvIkeaUZs1HU31nU/yz011We7UcGvTCvY7oT/CSlZ+z+LdRhWm
+ /YxqI0keXfCWIRJiIe2p5GZXaFKrMHlC9b7akJL+BLVjhPEnx5p5hZKwUbNNuKIs
+ OPCuYEphctulL466BfaZerT9veJn5kEYpTIGcDUO8zvHHnila91yCuH91r0Oy8LB
+ 61gT9g/x7n2Uw4u4i+n7n+yq9X9uiG3nMf4hea9hFTHsRtclxDQExm5jN2NDz9Bd
+ EP63EJ6ZUMoD5GB9z469jFjL0SMrekykA4gw9kC67yy/o3KDwkvVLmbK0ikaJ337
+ bmubWuV0TVep2umsoHSWDwIwQshtRA+win0/hvBHnKnPsgnNjNsqOs281vp1PM5Y
+ ssEq738kdfopcrSYVuaVOHVQhSqLBP7+GmEY1BhTpBtXy0V5BQjleFb+hgROokZK
+ qf3o3zVABDA398BviPUF
+ =XxNR
+ -----END PGP SIGNATURE-----
+ 
+
+fix(ci): quarantine public unmerged jobs (#3)
+
+Route public pull requests and merge-group validation to GitHub-hosted runners while preserving trusted main, schedule, and dispatch execution. Require locked Mise installs for Velnor pre-execution policy.
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>
+Co-authored-by: Codex <codex@openai.com>

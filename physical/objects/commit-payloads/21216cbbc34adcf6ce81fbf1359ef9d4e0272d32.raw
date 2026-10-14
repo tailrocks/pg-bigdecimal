@@ -1,0 +1,38 @@
+tree c9dfcaba16d957553d297fafe280b578e495098b
+parent c18ab41adf1456e204ccb75a2f964e8e26b1c467
+author Alexey Zhokhov <alexey@zhokhov.com> 1786856349 +0700
+committer GitHub <noreply@github.com> 1786856349 +0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJqgUOdCRC1aQ7uu5UhlAAA2vQQAFw+mUAhAmmSQY/MvsIw/64o
+ omtVP9myK6F1uqbEHji5BZ6qyPVNc9SHNPecE167tOzhd7g+iXV/Vl+BC8IfN/Am
+ D1/ar3WVSP+m21MnSXpFplcX8NlPRzEELhkj2QBSNp0n+aSo7lcGsZgxZ6QSlZ2N
+ 2ZoLJomX1wfNSwgkTClH/hstpRGtz3X19HFoIoQUxRHOPCt5MgYLjmf8g3XxPfLi
+ pI0uUMMCYRjmuE0f8aPqz2j2m8vAYW9gmgIGi/C4G2wcd75/dEMcGUxxf36BvDEq
+ Ha7sUoI6fj2amG+FLMNSbSuXhjSbnSe+yr4bJmKiVyFN1WxD9eIrrJ1k5y6fkb1U
+ R+Ff9j35Zeaw0XkV0kFpRLiim8N0Z8p6yGb72sp0J83jePLCtP21gBni35FDMYOW
+ mZknaUu4dqqZoxgwVLMQNtBqH0HbMUGWqDCEjbuu6wCBPHgN/W+Zj4calAKMRbSt
+ 27yXHcFr6PDKUOiQlW3QDT2gGgJ6jSQ3x3TFud7+6LV4GJXddtBhixR1B1t8w264
+ B+Mv07HANkyE+qjBHM9+SUpbEd7At1HqMre+5Bb+yQzyd4DJ0qxa0CYn1oD8QE2v
+ g282ZA70Btam4glzAi3rARe5C1Ypy8UyGmWX9X3cNyvWXxBYRpsRtgjyncm+eU7M
+ QDuyUVHxLHNV0V/jizBV
+ =+JVR
+ -----END PGP SIGNATURE-----
+ 
+
+ci: adopt Velnor Actions 2026.8.22 (#9)
+
+## Summary
+- adopt signed owner-local Velnor Actions release 2026.8.22
+- restore weekly scheduled both-lane CI
+- bind generated hosted control gates to Ubuntu 26.04
+- refresh verified package updater branch leases where applicable
+
+## Generator verification
+- 95/95 tests passed
+- generator audit: 28 repositories, 5 classes, 5 templates
+- remote action closure: 9 actions
+- actionlint 1.7.12 passed this generated caller
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>
+Co-authored-by: Codex <codex@openai.com>

@@ -1,0 +1,29 @@
+tree f1aa44589d5498509c499386449ff1deb90e44ed
+parent cdbaae7dc994aaeb4840abe9c10f69748b31ba5f
+author Alexey Zhokhov <alexey@zhokhov.com> 1786850442 +0700
+committer GitHub <noreply@github.com> 1786850442 +0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJqgSyKCRC1aQ7uu5UhlAAACyUQAHelxTuVwAF/gkKEqZzFXRWH
+ DSs61Qw0Rtc+cFmyy4fE1uZ2BLUPUhNIC50S9eIwopPuuSHQEJzoxYYIJtsh4RI+
+ HWmt3f3nmsBLOBSfGLT50HVq7E/ZTybBc8zarQyF9S+s+ky9XlXaH8xk/bqtYtcZ
+ YGCdxYohaUHhGBwQ/u5IMYiddyBW8h0ROVGh58lS1FELXYcvBR8PKZ5GFfqYCMvb
+ TUeiYcHZnQC9ZuXcAt7MszRTAHAhc8qAQXrCh2b71MziGVYp7/OmnEiaSFrb9u+Y
+ oqxuvQXy7ppnY8kYbRLdNH9VkJLJI+0BNWDEGlgHwZ01hgcVuBHHBYPok9ISv8As
+ RLClJyZJWvcETo5jm1mZj6LcGCxL/2gjilCGW3VLnzNWQ6BmbZl3wXLM4rDzUFEK
+ KznOrHXb3/4u1AP+aV3aBaNFPWBS7RkkoUuwKPA7k37Mmf9xJvcayO9rkR3M6Bxh
+ RwX99NPcMcd75H94M17whCtFN9OsNOE3FHYgMDf4t/ya0axdnI7PgU/pIS7T/Qfj
+ eU5Bd9sok0BcJiMF5UjIfA6Miox6U93FEJ5zcZsWNRtjrdBpCzvXquPABBxjML1W
+ ZpFhfv3QsWxokT4MOes91kO9KzFsLnhKPjGYofE3SI8eDurcsurB06TPXmHBDdfj
+ W2D5F5T7cAVt4DBv4ydz
+ =K3vL
+ -----END PGP SIGNATURE-----
+ 
+
+ci: roll out Velnor Actions 2026.8.20 (#8)
+
+Generator-rendered rollout of the signed owner-local Velnor Actions
+`2026.8.20` release. No repository-specific workflow logic is changed.
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>
+Co-authored-by: Codex <codex@openai.com>

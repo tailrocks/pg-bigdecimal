@@ -1,0 +1,28 @@
+tree a1be06a3b667b836298f1d961d1eca3ede826416
+parent dba7a617c3c412036e20837a3dd2661cda99cf4f
+author Alexey Zhokhov <alexey@zhokhov.com> 1786901981 +0700
+committer GitHub <noreply@github.com> 1786901981 +0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJqgfXdCRC1aQ7uu5UhlAAAPPcQAHSzXChiwZdt79GkL+ziKqxl
+ elPNNhqT34JT9mYn37e5cF985zscKKVhRDOboxSWsiz9lcw7mFHQ9NqanlUz1+o+
+ ZLyHYG7c50LFS1YVBgRAZjogUGM/YtEaZ9gQNk+Ybn5wBE3oO0YcV+3y4dRMHhl6
+ SSlj2ydS2LMG7WAPtRVXOTlLLuWORGtQLk7fMTjErHm0kvP3veJEhpcdQxuiU3ZB
+ 653W9oOyO9ZI7c2vB9sDiKb+7jZBAnN4h6vAxmGKI6lMDAZ4hgQuo6vg0yTZwwZh
+ 8+vh5QMC+7AO5iKVlbNr5v76Rtv+VXpCRKFJiEIREwMSN6jjaMeDKUoXNt7RnG2I
+ dvz20tV2mNbU1LfzyM6GDvYTwTzPSvBdg63fHLzi2V8Mc6c3MRfEVgCjz7XYgut8
+ gbK3NSlNRu1arDGX9rSqXOFLF6/C/3RsLuXv41qKXUkdga/hq++EAXlXNUJN1Pam
+ +5byhe1UqKejGnFuntdi68m0SmYBp/HlpDelHKkq3uny6eL89jZ9fDcQ5ga2tngg
+ pCRzix8uHC2BvbPg6GqC0N81AOVlnf4D2LaUtAG+gFqX7T2XenVAQ0HQZdZ5VgLB
+ 8BkRolwY4WRxkhkgWFLUiGX7JsVMxqm1ZQoiyPoe/3997nP5xO3aOj0cPeov8Ffq
+ QlJNHsZ2ScskqZ+t/Zct
+ =gNtn
+ -----END PGP SIGNATURE-----
+ 
+
+ci: adopt Velnor Actions 2026.8.28 (#11)
+
+Keep the default lane on real Velnor execution and use the owner-local GitHub App client-ID package interface.
+
+Signed-off-by: Don Beave <donbeave@users.noreply.github.com>
+Co-authored-by: Codex <codex@openai.com>

@@ -1,0 +1,28 @@
+tree 70ec2f3885672589e1c5e064a8bec1ade6292319
+parent dd6f1c1f20176b04f5acced45c396e76ea406f77
+author Alexey Zhokhov <alexey@zhokhov.com> 1784718083 +0700
+committer GitHub <noreply@github.com> 1784718083 +0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJqYKMDCRC1aQ7uu5UhlAAA0fgQAFyRY7FH6d1bu5Mvas6Sw6+F
+ RtjHEVahUDdlLQ+4xX4URohePT/qfptj5vy2RR5OQyGMEwYElXECjjP0+yHDyrwN
+ ED/4PVcGg211QEcFZl4Wmr3OOq/28ujSTWyzK6+EGB918AoCzRIAmABKNSVxdmmp
+ CJ6HIaVzwM6EAiD2w1ikpTZyq/H45X7JNgZUA7ESw2r9WSPHH61QFC9hm58vHFnF
+ mK0KBA6/V+T1tH0Ic52CaaNyCNRBg4usu2hrHuLmrdgvg7sH1AvErbHHy+8HbMk6
+ gzSOqGG59Xni6Od6GG06TrmVQ0Baj2NPQPeWgskpuvws3aGE1+cUeMQbfN+shZmI
+ os5NbfOQo+evj0ZjjphlqKYxYvQjFhDhMBQRnW7kz3GT6mulaVmwCXgGD4KseLHb
+ TZ2Y5CBQWBXXcgUfX981djIkUclUarOKZK+H8rYgpYzvp/r7IYYNH0Wn9mqOykTj
+ sFhLKdadLyVcbLF4oUWT+Vxw8nCHt4XulFE+FENBkVk1Q5WjBfW3C7wc1ZRsqMwR
+ gfSKuLKMKE1okv5bj87VJQhrzY8hsLs83XlLR36coPSR4rXpQglpRr1MTPI09XfI
+ +7ubAhuuK1WzzL5s6C9wEf/rNVbclpyEhxCIAFg6c4UChUJ+698O8WeNUmrqUPO1
+ JW/3+Ul7Dx66tONQOQcM
+ =DtNY
+ -----END PGP SIGNATURE-----
+ 
+
+ci: canonicalize release job id (#2)
+
+- rename crates.io publisher job to canonical `release` concern id
+- preserve commands, permissions, lane matrix, single-writer behavior, and weekly `both`
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>

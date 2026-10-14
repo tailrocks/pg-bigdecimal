@@ -1,0 +1,9 @@
+tree ebcc1c1fb6ef9514638d2425e5165b3dec4e6b74
+parent e2103323bf3156ae614948c3495f1856cf6360d2
+author Alexey Zhokhov <alexey@zhokhov.com> 1779484919 +0000
+committer Alexey Zhokhov <alexey@zhokhov.com> 1779484919 +0000
+
+ci: add standalone validation
+
+Co-authored-by: Codex <codex@openai.com>
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>

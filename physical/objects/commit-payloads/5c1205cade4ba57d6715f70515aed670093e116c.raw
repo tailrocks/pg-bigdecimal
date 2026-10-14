@@ -1,0 +1,40 @@
+tree 196a65b374c371fb0827751da9ede9ad7d149117
+parent 16511ee41827de300ec2c8aed9a0e9dc9b4c54ee
+author Alexey Zhokhov <alexey@zhokhov.com> 1787520524 +0700
+committer GitHub <noreply@github.com> 1787520524 +0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJqi2YMCRC1aQ7uu5UhlAAAaTAQADcfzQk10J4S/6dNaSJV9Hmf
+ dzavPueF7OpL0phQyEy5h1wa4OGHYbzCTGFSwZ3hwIznS4LsF09FZdxAipNPQwlz
+ z0A8tbSZZDH2vjyIKr10S/DFS9Nm7g2hbjSVJTtupYvEKgaA/Kvw2orT446rmDoh
+ 13LzlGFG1MMdQjHFzmCNWp8FZU8efuMQSFeFMhpvhdWV42BMgEK0wRzaKJ5qiEPu
+ LDf9mARRUBASe8EIavMGLlW6lL9+0sNIRxUF/eNfaeQOUrhDYAGEPh4o0952km2Q
+ NzluYU8aGvh3ayTXnOqk7FR4CaBTfLVy7wS0O0QHe0iPwf96/WPWOjcUPL3BXi5i
+ 65EyNHT8oTZDKIwnSnfXpGkcdBYlMXqYFec4Dk176ynd3ukclDJLll/smrgGv59G
+ x9mRZIHzeTLUbv3xQfZK+2/7ewYUFkzeBc1DPMFjDWMy0x4Wd2PaE/oPzOY+VA8i
+ 0aoNYiXyNSPyG0XXcaapSF1UaP9OuyGzFuRWpI1VsaAaarOZTJv56QZlZl6fJyjI
+ Iy2lBX+llEQ63Z82kgSra+3dLZ8O+xjiSwyh70W/EWnlAZXZ4B372OKXCcDvoo3C
+ 5s1IuEZsDNZMSxMSuF3HmAUeeF3SW8snvcLZCq9qpaO9Sta3mtKxOPXkjNxcymNE
+ hgiFX6ePY6RME/YMvBTx
+ =3ia8
+ -----END PGP SIGNATURE-----
+ 
+
+ci: Velnor-default lanes, post-merge push routes to GitHub lane (#12)
+
+Re-render `ci.yml` from the velnor-actions-generator 2026.8.31
+code-class template (same canonical file as tailrocks/termrock,
+tailrocks/holla, tailrocks/tailrocks-skills):
+
+- Canonical `lanes` workflow_dispatch input (velnor|github|both, default
+velnor)
+- Owner-local reusable pins advanced together to 2026.8.31
+- Post-merge push routes to the GitHub lane per fleet
+merged_push_occupancy policy
+
+release.yml already matches the lanes spec and defaults to Velnor;
+unchanged.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>
